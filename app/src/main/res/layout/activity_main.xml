@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <io.github.kozemirov.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        app:text="Your TextNow number is the number that you'll want to give to your friends and family to call and text you, and that's the number that your calls and texts will come from. Your TextNow number can be found in your TextNow app. The “My Phone Number” in your device settings is your phone's Mobile Directory Number (MDN)"
+        app:textSize="20"
+        app:justificationMode="1"
+        app:readMoreText="Read More"
+        app:showLessText="Show Less"
+        app:limit="3"
+        app:hidden="true"
+        app:newLineIndent="1"/>
+
+
+
+
+
+
+
+</RelativeLayout>
